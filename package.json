@@ -16,7 +16,7 @@
     "ios": "yarn run start --ios",
     "start": "nve 10.17.0 expo start",
     "check-types": "tsc",
-    "lint": "eslint --format codeframe src/**/*.{ts,tsx}",
+    "lint": "eslint --fix --format codeframe src/**/*.{ts,tsx}",
     "prettify": "prettier --write src/**/*.{js,json,ts,tsx}",
     "validate": "yarn lint && yarn check-types"
   },
